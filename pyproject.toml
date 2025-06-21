@@ -3,7 +3,6 @@ name = "world-development-indicators"
 version = "0.1.0"
 description = "World Bank World Development Indicators data connector"
 authors = [{name = "Data Integration Team", email = "data@integration.io"}]
-readme = "README.md"
 requires-python = ">=3.11"
 
 dependencies = [
