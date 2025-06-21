@@ -1,0 +1,72 @@
+{
+  "id": "world_development_indicators",
+  "title": "World Development Indicators - Complete Dataset",
+  "description": "The World Development Indicators (WDI) is the World Bank's premier compilation of cross-country comparable data on development. This dataset contains ALL available indicators from the WDI database - approximately 1,500 time series indicators for 217 economies and more than 40 country groups, with complete historical data (many indicators have data going back to 1960 or earlier). The indicators span topics including poverty, education, health, environment, economy, trade, and private sector development.",
+  "license": "CC-BY-4.0",
+  "source_id": "world_bank",
+  "columns": [
+    {
+      "id": "country_code",
+      "description": "World Bank country code (3-letter)",
+      "type": "string",
+      "nullable": false,
+      "unique": false
+    },
+    {
+      "id": "country_name",
+      "description": "Full name of the country",
+      "type": "string",
+      "nullable": false,
+      "unique": false
+    },
+    {
+      "id": "indicator_code",
+      "description": "World Bank indicator code",
+      "type": "string",
+      "nullable": false,
+      "unique": false
+    },
+    {
+      "id": "indicator_name",
+      "description": "Full name/description of the indicator",
+      "type": "string",
+      "nullable": false,
+      "unique": false
+    },
+    {
+      "id": "year",
+      "description": "Year of the observation",
+      "type": "year",
+      "nullable": false,
+      "unique": false
+    },
+    {
+      "id": "value",
+      "description": "Numeric value of the indicator for the given country and year",
+      "type": "double",
+      "nullable": false,
+      "unique": false
+    },
+    {
+      "id": "unit",
+      "description": "Unit of measurement for the indicator",
+      "type": "string",
+      "nullable": true,
+      "unique": false
+    },
+    {
+      "id": "scale",
+      "description": "Scale of the measurement (e.g., thousands, millions)",
+      "type": "string",
+      "nullable": true,
+      "unique": false
+    },
+    {
+      "id": "decimal_places",
+      "description": "Number of decimal places for the value",
+      "type": "integer",
+      "nullable": true,
+      "unique": false
+    }
+  ]
+}
